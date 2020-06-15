@@ -1,19 +1,37 @@
-мама папа
-брат сестра
-мастер воин
-6 мастер
-мастер воин
-6 мастермастер воин
-        6 мастермастер воин
-                6 мастермастер воин
-                        6 мастермастер воин
-                                6 мастер
-                                мастер воин
-                                6 мастермастер воин
-                                        6 мастермастер воин
-                                                6 мастермастер воин
-                                                        6 мастермастер воин
-                                                                6 мастермастер воин
-                                                                        6 мастер
-конец файла
-ююююююююююю
+#catalog_list {margin: 0;}
+
+#cat_list .lv0 {background-color: #ffffff}
+#cat_list .lv1,
+#cat_list .lv2,
+#cat_list .lv3,
+#cat_list .lv4 {font-weight: normal;}
+
+#cat_list, #cat_list a {color: #000000; text-decoration: none}
+#cat_list p, #cat_list a {display: block; margin: 0; padding: 5px 5px; cursor: pointer}
+#cat_list p {cursor: default}
+
+#cat_list li {display: block; position: relative; z-index: 10; background-color: #F2F2F2; border-bottom: 1px solid #ffffff; font-size: 13px; 1white-space: nowrap;}
+#cat_list li:hover {background-color: #3f6761;}
+#cat_list li span {color: #990000}
+
+#cat_list ul {position: absolute; z-index: 50; display: none; top: 0; left: 100%;}
+
+.ext_cat_list {font-size: 13px; font-weight: bold;}
+.ext_cat_list:hover {background-color: #3f6761;}
+.ext_cat_list a {display: block; margin: 0; padding: 5px 5px; color: #000000; text-decoration: none}
+
+#vbag  {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #777;
+	font-size: 10px;
+}
+
+#vbag  a{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #777;
+	font-size: 10px;
+	text-decoration: underline;
+}
+#vbag a:hover{
+text-decoration:none;
+}
